@@ -5,8 +5,8 @@ import cv2
 import numpy as np
 from tensorflow.python.keras.models import load_model, Model
 from tensorflow.python.keras.layers import Dense, GlobalAveragePooling2D
-from tensorflow.python.keras.applications.mobilenet_v2 import MobileNetV2
-from tensorflow.python.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.python.keras.applications.mobilenet_v2 import MobileNetV2 #Línea con error (requiere cambio)
+from tensorflow.python.keras.applications.mobilenet_v2 import preprocess_input #Línea con error (requiere cambio)
 
 class HouseCounterApp:
     def __init__(self, master):
