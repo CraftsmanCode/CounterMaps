@@ -8,7 +8,7 @@ from tensorflow.python.keras.models import Sequential, load_model
 print("TensorFlow version:", tf.__version__)
 print("Keras version:", tf.keras.__version__)
 from tensorflow.python.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense #Línea con error (requiere cambio)
-from keras.preprocessing.image import img_to_array #Línea con error (requiere cambio)
+from tensorflow.python.keras.preprocessing.image import img_to_array #Línea con error (requiere cambio)
 
 
 # Creación del modelo simplificado
