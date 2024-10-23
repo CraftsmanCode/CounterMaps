@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import filedialog
 
 # Cargar el modelo preentrenado
-model = tf.saved_model.load('path_to_saved_model')
+model = tf.saved_model.load('C:\Users\henry\OneDrive\Documentos\Proyectos de programación\Python\MapCounterApp\Images')
 
 # Función para cargar y preprocesar la imagen
 def load_image(image_path):
